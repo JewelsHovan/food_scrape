@@ -1,7 +1,33 @@
 
 # Food Data API Client
 
-A Python-based educational project demonstrating how to reverse engineer and interact with the MyFoodData API, implement caching, and structure a modular Python application.
+A Python-based educational project demonstrating how to reverse engineer and interact with the MyFoodData API. This project showcases API reverse engineering techniques, caching implementation, and modular Python application structure.
+
+## What is API Reverse Engineering?
+
+This project demonstrates API reverse engineering through several key techniques:
+
+1. **Network Traffic Analysis**
+   - Observing API endpoints by monitoring web traffic
+   - Identifying request patterns and URL structures
+   - Analyzing HTTP headers and request parameters
+
+2. **Request Replication**s
+   - Reproducing browser-like headers
+   - Mimicking the original application's request patterns
+   - Maintaining proper request sequences
+
+3. **Response Analysis**
+   - Understanding JSON response structures
+   - Identifying key data fields
+   - Mapping response patterns
+
+In this project, we reverse engineered the MyFoodData API by:
+- Identifying the base URL (api1.myfooddata.com)
+- Discovering endpoint patterns (/autocomplete, /fooddata, etc.)
+- Replicating browser headers to avoid request blocking
+- Understanding the API's response format and data structure
+
 
 ## Educational Value
 
