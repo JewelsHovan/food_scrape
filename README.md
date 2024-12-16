@@ -3,6 +3,9 @@
 
 A Python-based educational project demonstrating how to reverse engineer and interact with the MyFoodData API. This project showcases API reverse engineering techniques, caching implementation, and modular Python application structure.
 
+> **IMPORTANT NOTE**: This repository is for demonstrative purposes only and I will not utilize the API endpoints for personal or commercial use.
+
+
 ## What is API Reverse Engineering?
 
 This project demonstrates API reverse engineering through several key techniques:
