@@ -142,7 +142,7 @@ The client supports several MyFoodData API endpoints:
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/JewelsHovan/food_scrape
 ```
 
 2. Install requirements:

@@ -42,7 +42,7 @@ def get_food_data(search_term):
     try:
         # Request autocomplete suggestions for the search term
         print(f"Requesting autocomplete for: {autocomplete_url}")
-        autocomplete_response = requests.get(autocomplete_url, headers=headers)
+        autocomplete_response = requests.get(autocomplete_url, headers=headers, timeout=60)
         autocomplete_response.raise_for_status()  # Raise an exception for bad status codes
 
         response_data = autocomplete_response.json()
@@ -72,7 +72,7 @@ def get_food_data(search_term):
         print(f"Requesting food data from: {fooddata_url}")
         
         # Request food data
-        fooddata_response = requests.get(fooddata_url, headers=headers)
+        fooddata_response = requests.get(fooddata_url, headers=headers, timeout=60)
         print(f"Response status code: {fooddata_response.status_code}")
         
         fooddata_response.raise_for_status()  # Raise an exception for bad status codes
